@@ -1,0 +1,36 @@
+
+.skill .progress {
+  height: 2px;
+  position: relative;
+  width: 90%;
+  border-radius: 2px;
+  overflow: visible;
+  background-size: hsla(0, 0%, 100%, .19) ;
+  margin: .5rem 0 10px;
+  margin-left: 20px;
+  text-indent: 4px;
+}
+
+.skill .progress .determinate {
+  background-color: #78909c; 
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  background-size: hsla(0, 0%, 100%, .19) ;
+  margin: .5rem 0 10px;
+  margin-left: 20px;
+  text-indent: 4px 93%;
+}
+
+.skill .progress .determinate .fa {
+  font-size: 13px;
+  position: absolute;
+  top: -4px;
+  right: -2px;
+  margin-left: 50%;
+  color: #fff;
+  background-size: hsla(0, 0%, 100%, .19) ;
+  margin: .5rem 0 10px;
+  margin-left: 20px;
+  text-indent: 4px;
+}
